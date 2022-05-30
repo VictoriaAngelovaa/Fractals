@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>PythagorasTree</title>
+    <link rel="stylesheet" title="style" href="style.css">
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+
+  <body onload="init(iteration);">
+  	
+  <div id="wrapper">
+    <div id="header">
+    	<h1>Pythagoras tree</h1>
+    </div>
+    <div id="container">
+    <p class="center biggerfont">Текуща итерация: <span id="iterationCounter" class="iteraction-number">0<span></p>
+     <div id="controls">
+       <ul>
+        <li><a class="large button green" onclick="next_iteration(-1);">Предишна итерация</a></li>
+        <li><a class="large button green" onclick="next_iteration(1);">Следваща итерация</a></li>
+       </ul>
+      </div>
+    <div class="wrapper-canvas">
+  	  <canvas id="canvas" width="600" height="510">	  
+        Sorry, the browser you are using does not support the new standards.
+        Please use a newer version
+  	  </canvas>
+    </div>
+	</div>    
+    <div id="footer"><p class="center">Виктория Ангелова, 81960, КН</p>
+    <p class="center">ФМИ, 2022</p>
+    </div>
+    </div>
+    <script type="text/javascript" src="fractal.js"></script>
+  </body>
+</html>
